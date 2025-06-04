@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Divyanshi Priya | Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a2d9a6a34b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <ul>
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certificates">Certificates</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="hero-content">
+      <img src="images/me.jpg" alt="Divyanshi" class="hero-img">
+      <div>
+        <h1>Divyanshi Priya</h1>
+        <p>A passionate CSE student</p>
+        <p>Believer in building elegant software with purpose.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about-content">
+      <img src="images/1.jpg" alt="Divyanshi" class="about-img">
+      <div>
+        <h2>About Me</h2>
+        <p><strong>School:</strong> MK DAV Public School, AS Krishna Niketan</p>
+        <p><strong>College:</strong> Techno India University, CSE</p>
+        <p><strong>Interest:</strong> Exploring new technologies, IoT systems, and software design principles.</p>
+        <p>I believe software engineering is not just about code, but solving real-world problems beautifully and efficiently.</p>
+        <a href="assets/your_resume.pdf" download class="resume-btn">My Resume</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="project-list">
+      <div class="project-card">
+        <img src="images/project1.png" alt="Project 1">
+        <h3>IoT-Based Child Tracker</h3>
+        <p>Real-time tracking system using GPS & SIM module.</p>
+        <a href="#" class="btn">View Project</a>
+      </div>
+      <div class="project-card">
+        <img src="images/project2.png" alt="Project 2">
+        <h3>Portfolio Website</h3>
+        <p>Personal site built using HTML, CSS, JS.</p>
+        <a href="#" class="btn">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificates Carousel -->
+  <section id="certificates">
+  <h2>Certificates</h2>
+  <div class="carousel-container">
+    <button class="carousel-btn prev">&#10094;</button>
+    <div class="carousel" id="carousel">
+      <img src="images/c1.jpg" alt="Certificate 1">
+      <img src="images/c2.jpg" alt="Certificate 2">
+      <img src="images/c3.jpg" alt="Certificate 3">
+      <!-- Add more images as needed -->
+    </div>
+    <button class="carousel-btn next">&#10095;</button>
+  </div>
+</section>
+
+
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-box">
+      <div class="contact-info">
+        <p><strong>Email:</strong> divyanshikaushik.8@gmail.com</p>
+        <p><strong>Phone:</strong> +91 7717774393</p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/divyanshipriya08" target="_blank">divyanshipriya08</a></p>
+      </div>
+      <form id="contact-form" action="https://formspree.io/f/xeokoejd" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+        <button type="submit">Send</button>
+        <div class="form-success" id="form-success">
+          <i class="fas fa-check-circle"></i> Message sent successfully!
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Divyanshi Priya. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
